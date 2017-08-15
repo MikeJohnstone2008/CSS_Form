@@ -11,7 +11,12 @@
 }
 .contentBox {
   display: flex;
+  flex-direction:column;
+  align-items: flex-start;
+  padding-left: 20px;
+  padding-top: 10px;
   height: 100px;
+  color: gray;
   border: 1px solid lightgray;
   font-family: 'Raleway', sans-serif;
   font-size: 15px;
@@ -21,24 +26,21 @@
   width: 50%;
 }
 .input33  {
-  width: 33%;
+  width: 33.33%;
 
 }
 .input25  {
   width: 25%;
 }
-.contentBox {
-  display: flex;
-  flex-direction:column;
-  align-items: flex-start;
-  padding-left: 20px;
-}
+
 .submitBtn  {
 
   display: flex;
   width: 100%;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
+  /*align-items: center;*/
   height: 100px;
   font-family: 'Raleway', sans-serif;
 }
@@ -51,8 +53,11 @@ h2  {
   font-size: 15px;
 }
 .submitBtn input  {
+  display: flex;
+  justify-content: center;
   width: 30%;
-  height: 32px;
-  background-color: green;
+  height: 42px;
+  background-color: #97b176;
   color: white;
+  border-radius: 4px;
 }
