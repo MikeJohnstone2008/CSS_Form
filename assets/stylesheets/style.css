@@ -1,0 +1,58 @@
+* {
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css?family=Bangers|Raleway');
+#form {
+  display: flex;
+  border: 8px solid lightgray;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.contentBox {
+  display: flex;
+  height: 100px;
+  border: 1px solid lightgray;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  /*justify-content: space-around;*/
+}
+.input50 {
+  width: 50%;
+}
+.input33  {
+  width: 33%;
+
+}
+.input25  {
+  width: 25%;
+}
+.contentBox {
+  display: flex;
+  flex-direction:column;
+  align-items: flex-start;
+  padding-left: 20px;
+}
+.submitBtn  {
+
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  height: 100px;
+  font-family: 'Raleway', sans-serif;
+}
+input {
+  border: none;
+  width: 80%;
+  font-size: 15px;
+}
+h2  {
+  font-size: 15px;
+}
+.submitBtn input  {
+  width: 30%;
+  height: 32px;
+  background-color: green;
+  color: white;
+}
